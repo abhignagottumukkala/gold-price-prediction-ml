@@ -14,6 +14,15 @@ This project predicts gold prices using economic indicators such as stock market
 - SLV – Silver price
 - EUR/USD – Currency exchange rate
 
+## Model Performance
+
+| Model | R2 Score | MAE | RMSE |
+|------|------|------|------|
+| Linear Regression | 0.865 | 5.91 | 8.41 |
+| Random Forest | 0.989 | 1.33 | 2.39 |
+
+Random Forest performed significantly better than Linear Regression.
+
 ## How to Run
 
 Install dependencies:
@@ -35,3 +44,14 @@ streamlit run app.py
 ## Streamlit App Preview
 
 ![App Screenshot](app_screenshot.png)
+
+## Project Structure
+
+gold-price-prediction
+│
+├── Gold_Price_Prediction.ipynb
+├── gld_price_data.csv
+├── gold_model.pkl
+├── app.py
+├── requirements.txt
+└── README.md
