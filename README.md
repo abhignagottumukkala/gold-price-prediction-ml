@@ -31,3 +31,7 @@ streamlit run app.py
 - Streamlit
 - Matplotlib
 - Seaborn
+
+## Streamlit App Preview
+
+![App Screenshot](app_screenshot.png)
